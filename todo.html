@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles3.css">
+    <title>To-Do App</title>
+</head>
+
+<body>
+    <div id="app">
+        <h2>To-Do App</h2>
+
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+
+        <div class="tasks-container">
+            <div class="task-list">
+                <h3>Pending Tasks</h3>
+                <ul id="pendingTasks"></ul>
+            </div>
+
+            <div class="task-list">
+                <h3>Completed Tasks</h3>
+                <ul id="completedTasks"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
